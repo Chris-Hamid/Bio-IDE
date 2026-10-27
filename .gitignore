@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Frontend build
+dist/
+.vite/
+
+# Tauri / Rust
+src-tauri/target/
+src-tauri/WixTools/
+src-tauri/gen/
+
+# Logs & caches
+*.log
+npm-debug.log*
+.cache/
+.turbo/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Test / coverage
+coverage/
+.nyc_output/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Local data
+*.gbk
+*.gb
+!public/
