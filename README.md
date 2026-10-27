@@ -32,7 +32,7 @@ A modern, fast desktop IDE for sequence design, annotation, NCBI fetch, feature 
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bio-ide.git
+git clone https://github.com/Chris-Hamid/Bio-IDE.git
 cd bio-ide
 ```
 
